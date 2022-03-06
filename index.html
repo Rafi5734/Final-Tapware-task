@@ -103,52 +103,32 @@
                         </form>
                     </div>
                     <div class="signature-text-main mt-3">
-                        <p class="mt-3 signature-text mb-3 editable" contenteditable="true">এ টি এম আল ফাত্তাহ</p>
-                        <p class="mt-3 signature-text editable" contenteditable="true">ন্যাশনাল কনসালটেন্ট</p>
-                        <p class="mt-3 signature-text editable" contenteditable="true">০১৫৫৬৬৩১৯৫০(ফোন )</p>
-                        <p class="mt-3 signature-text editable" contenteditable="true">atmfattah@gmail.com</p>
+                        <p class="signature-text mb-3 editable" contenteditable="true">এ টি এম আল ফাত্তাহ</p>
+                        <p class="signature-text editable" contenteditable="true">ন্যাশনাল কনসালটেন্ট</p>
+                        <p class="signature-text editable" contenteditable="true">০১৫৫৬৬৩১৯৫০(ফোন )</p>
+                        <p class="signature-text editable" contenteditable="true">atmfattah@gmail.com</p>
                     </div>
                 </div>
             </div>
         </div>
         <div class="container delivery-list">
-            <form id="addForm" class="mt-3 form-main">
-                <div class="row">
-                    <div class="col-lg-7 col-md-7 col-sm-7">
-                        <input
-                            type="text"
-                            onkeyup="toggleButton(this, 'submit')"
-                            class="form-control"
-                            id="item"
-                        >
-                    </div>
-                    <div class="col-lg-5 col-md-5 col-sm-5">
-                        <input
-                            type="submit"
-                            class="btn btn-dark"
-                            id="submit"
-                            value="Submit"
-                            disabled
-                        >
-                    </div>
-                </div>
-            </form>
-            <strong class="mt-4 mb-3">বিতরণ:</strong>
-            <form id="addForm">
-                <ul class="list-group" id="items"></ul>
-            </form>
+            <div id="newtask1" class="atteention-newTasks">
+                <input type="text" id="task1Id" placeholder="Enter the tasks">
+                <button id="push1"><i class="fa-solid fa-plus"></i></button>
+            </div>
+            <strong>বিতরণ: </strong>
+            <div id="tasks"></div>
         </div>
         <div class="atteention-wrapper container">
-            
-                <div id="newtask" class="atteention-newTasks">
-                    <input type="text" placeholder="Enter the tasks">
-                    <button id="push">Submit</button>
-                </div>
-                <strong>দৃষ্টি আকর্ষণ: </strong>
-                <div id="tasks"></div>
+            <div id="newtask2" class="atteention-newTasks">
+                <input type="text" id="task2Id" placeholder="Enter the tasks">
+                <button id="push2"><i class="fa-solid fa-plus"></i></button>
+            </div>
+            <strong class="mb-3">দৃষ্টি আকর্ষণ: </strong>
+            <div id="tasks1" class="mb-3"></div>
             
         </div>
-        <div class="rem-nb container">
+        <div class="rem-nb container mt-5">
             <div>
                 <p class="">স্মারক নম্বর: <span contenteditable="true" class="ms-5">00..99.88</span></p>
             </div>
@@ -160,18 +140,13 @@
             </div>
         </div>
 
-        <div class="wrapper container">
-            <strong>সদয় অবগতি ও কার্যার্থে প্রেরণ করা হলো:  </strong>
-            <div class="inputField">
-                <input type="text" placeholder="Add your new tasks" class="add-to">
-                <button class="add-to-new-btn"><i class="fa-solid fa-plus"></i></button>
+        <div class="container">
+            <div id="newtask3" class="atteention-newTasks">
+                <input type="text" id="task3Id" placeholder="Enter the tasks">
+                <button id="push3"><i class="fa-solid fa-plus"></i></button>
             </div>
-            <ul class="todoList">
-            </ul>
-            <div class="footer">
-                <span class="copyright">You have <span class="pendingTasks"></span> pending tasks</span>
-                <button class="clear-all">Clear All</button>
-            </div>
+            <strong>সদয় অবগতি ও কার্যার্থে প্রেরণ করা হল: </strong>
+            <div id="tasks2"></div>
         </div>
 
 

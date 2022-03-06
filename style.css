@@ -26,8 +26,7 @@
     
     align-items: center;
     flex-direction: column;
-    line-height: 30px;
-    line-height: 40px;
+    line-height: 25px;
 }
 
 
@@ -42,6 +41,9 @@
 .mujid-year-logo {
    position: relative;
    left: 50px;
+}
+.addressing{
+    line-height: 10px;
 }
 
 .secure {
@@ -133,12 +135,12 @@
     transform: translate(-50%, -50%);
 }
 
-#newtask {
+#newtask1 {
     position: relative;
     padding: 30px 20px;
 }
 
-#newtask input {
+#newtask1 input {
     width: 75%;
     height: 45px;
     padding: 12px;
@@ -150,6 +152,7 @@
     font-size: 15px;
     border: 2px solid #d1d3d4;
 }
+
 #task1Id {
     width: 75%;
     height: 45px;
@@ -163,12 +166,12 @@
     border: 2px solid #d1d3d4;
 }
 
-#newtask input:focus {
+#newtask1 input:focus {
     outline: none;
     border-color: #0d75ec;
 }
 
-#newtask button {
+#push1 {
     position: relative;
     float: right;
     font-weight: 500;
@@ -185,6 +188,126 @@
 }
 
 #tasks {
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+    background-color: #ffffff;
+    padding: 30px 20px;
+}
+
+#newtask2 {
+    position: relative;
+    padding: 30px 20px;
+}
+
+#newtask2 input {
+    width: 75%;
+    height: 45px;
+    padding: 12px;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    border: 2px solid #d1d3d4;
+}
+
+#task2Id {
+    width: 75%;
+    height: 45px;
+    padding: 12px;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    border: 2px solid #d1d3d4;
+}
+
+#newtask2 input:focus {
+    outline: none;
+    border-color: #0d75ec;
+}
+
+#push2 {
+    position: relative;
+    float: right;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #0d75ec;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    width: 20%;
+    height: 45px;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#tasks2 {
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+    background-color: #ffffff;
+    padding: 30px 20px;
+}
+
+#newtask3 {
+    position: relative;
+    padding: 30px 20px;
+}
+
+#newtask3 input {
+    width: 75%;
+    height: 45px;
+    padding: 12px;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    border: 2px solid #d1d3d4;
+}
+
+#task3Id {
+    width: 75%;
+    height: 45px;
+    padding: 12px;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    border: 2px solid #d1d3d4;
+}
+
+#newtask3 input:focus {
+    outline: none;
+    border-color: #0d75ec;
+}
+
+#push3 {
+    position: relative;
+    float: right;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #0d75ec;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    width: 20%;
+    height: 45px;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#tasks2 {
     border-radius: 10px;
     width: 100%;
     position: relative;
@@ -343,6 +466,10 @@
     pointer-events: none;
     transition: all 0.3s ease;
     margin-top: 100px;
+}
+
+.signature-text-footer{
+    line-height: 10px;
 }
 
 .footer button.active {
